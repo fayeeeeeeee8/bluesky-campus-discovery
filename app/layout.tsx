@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://bluesky-campus-discovery.woodsyfield22.chatgpt.site"),
   title: "Bluesky Campus Discovery",
   description: "Find relevant campus people, feeds, and conversations on Bluesky.",
   openGraph: {
