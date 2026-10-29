@@ -9,7 +9,7 @@ const conversations = [
     avatar: "JL",
     name: "Jordan Lee",
     handle: "@jordan.bsky.social",
-    meta: "Psychology · Northwestern",
+    meta: "Psychology · Rice University",
     text: "Anyone else exploring how short-form video affects attention during study breaks? I found a new paper worth discussing.",
     tag: "Psychology",
   },
@@ -25,7 +25,7 @@ const conversations = [
     avatar: "SM",
     name: "Sam Morgan",
     handle: "@sammorgan.bsky.social",
-    meta: "The Garage · Student founder",
+    meta: "Liu Idea Lab · Student founder",
     text: "Office hours for student builders are open this afternoon. Bring one problem you are stuck on and we’ll work through it together.",
     tag: "Startups",
   },
@@ -81,10 +81,10 @@ export default function Home() {
         </div>
 
         <aside className="campus-card" id="campus" aria-label="Campus profile">
-          <div className="campus-icon">N</div>
+          <div className="campus-icon">R</div>
           <div>
             <span className="card-label">YOUR CAMPUS</span>
-            <h2>Northwestern University</h2>
+            <h2>Rice University</h2>
             <p>2,184 students · 73 active topics</p>
           </div>
           <span className="verified">Verified</span>
