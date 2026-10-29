@@ -13,8 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: "Bluesky Campus Discovery",
   description: "Find relevant campus people, feeds, and conversations on Bluesky.",
+  openGraph: {
+    title: "Bluesky Campus Discovery",
+    description: "Find your people without losing the calm.",
+    images: [{ url: "/og.png", width: 1730, height: 909, alt: "Bluesky Campus Discovery" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bluesky Campus Discovery",
+    description: "Find your people without losing the calm.",
+    images: ["/og.png"],
+  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
